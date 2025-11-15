@@ -10,15 +10,15 @@ Update this table daily with ✔ or ✖.
 
 | Date     | Topic Worked On |                                        Repository/Code                                        |    Status    |
 |----------|-----------------|-----------------------------------------------------------------------------------------------|--------------|
-| 09-11-25 | Basic HTML/CSS  | [folder](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/frontend/html-css/website)|Completed✅|
-| 10-11-25 | JavaScript      | [source code](https://github.com/rajtejaswee/fullstack-rebuild/blob/main/frontend/javascript/Revision.js)|Completed✅|
+| 09-11-25 | Basic HTML/CSS  | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/frontend/html-css/website)|Completed✅|
+| 10-11-25 | JavaScript      | [repo](https://github.com/rajtejaswee/fullstack-rebuild/blob/main/frontend/javascript/Revision.js)|Completed✅|
 | 00-00-00 | Document Object Model(DOM)     | --|Pending🧪|
 | 11-11-25 | Node JS      | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/nodejs)|Completed✅|
 | 12-11-25 | Express + HTTP Servers     | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/http_servers)|Completed✅|
-| 13-11-25 | Headers + Query Params      | --|Pending🧪|
-| 00-00-00 | Middlewares      | --|Pending🧪|
+| 13-11-25 | Headers + Query Params | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/headers_query_params)|Completed✅|
+| 15-11-25 | Middlewares      | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/middlewares)|Completed✅|
+| 15-11-25 | CORS    | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/cors)|Completed✅|
 | 00-00-00 | Git and Github   | -- |Pending🧪|
-| 00-00-00 | Axios vs Fetch      | --|Pending🧪|
 | 00-00-00 | Authentication      | --|Pending🧪|
 | 00-00-00 | Mongo DB     | --|Pending🧪|
 | 00-00-00 | Zod + Passwords     | --|Pending🧪|
@@ -40,7 +40,7 @@ Update this table daily with ✔ or ✖.
 | 00-00-00 | Unit Testing | --|Pending🧪|
 | 00-00-00 | Horizontal and Vertical Scaling | --|Pending🧪|
 | 00-00-00 | Autoscaling groups | --|Pending🧪|
-| 00-00-00 | Kubernetes | --|Pending🧪|
+| 00-00-00 |  | --|Pending🧪|
    
 ---
 
