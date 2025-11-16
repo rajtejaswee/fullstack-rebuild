@@ -1,0 +1,13 @@
+.button{
+    padding:10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.input{
+    padding:10px;
+    color: white;
+    border-radius: 10px;
+    border-color: black
+}
