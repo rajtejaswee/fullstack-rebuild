@@ -12,7 +12,7 @@ Update this table daily with ✔ or ✖.
 |----------|-----------------|-----------------------------------------------------------------------------------------------|--------------|
 | 09-11-25 | Basic HTML/CSS  | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/frontend/html-css/website)|Completed✅|
 | 10-11-25 | JavaScript      | [repo](https://github.com/rajtejaswee/fullstack-rebuild/blob/main/frontend/javascript/Revision.js)|Completed✅|
-| 00-00-00 | Document Object Model(DOM)     | --|Pending🧪|
+| 16-11-25 | Document Object Model(DOM)     | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/frontend/Document%20Object%20Model)|Completed✅|
 | 11-11-25 | Node JS      | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/nodejs)|Completed✅|
 | 12-11-25 | Express + HTTP Servers     | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/http_servers)|Completed✅|
 | 13-11-25 | Headers + Query Params | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/headers_query_params)|Completed✅|
