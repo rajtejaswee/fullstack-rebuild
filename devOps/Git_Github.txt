@@ -1,0 +1,150 @@
+Git Basics
+1. Initialize
+git init
+Start a new repo in the current folder.
+
+2. Clone
+git clone <repo-url>
+Download a remote repo to your machine.
+
+
+Staging & Committing
+3. Check status
+git status
+See changed/untracked files.
+
+4. Add files
+git add <file>
+Stage a single file.
+git add .
+Stage everything. Use before committing.
+
+5. Commit
+git commit -m "message"
+Save a snapshot of staged changes.
+
+6. Amend
+git commit --amend
+Fix last commit message or add forgotten files.
+
+
+Branching
+7. Create branch
+git branch <name>
+Make a branch.
+
+8. Switch branch
+git checkout <name>
+Move to another branch.
+git switch <name> (newer, simpler).
+
+9. Create + switch
+git checkout -b <name>
+or
+git switch -c <name>
+
+10. List branches
+git branch
+
+
+Merging & Rebasing
+11. Merge
+git merge <branch>
+Merge another branch into your current one.
+
+12. Rebase
+git rebase <branch>
+Rewrite commits on top of another branch. Use for a clean history. Don’t rebase pushed commits unless you're alone.
+
+
+Reset & Undoing
+13. Undo unstaged changes
+git checkout -- <file>
+Revert file to last commit.
+
+14. Unstage a file
+git reset <file>
+
+15. Soft reset
+git reset --soft HEAD~1
+Undo last commit but keep changes staged.
+
+16. Mixed reset (default)
+git reset HEAD~1
+Undo last commit, changes go to working directory.
+
+17. Hard reset
+git reset --hard HEAD~1
+Undo last commit AND erase changes. Irreversible.
+
+
+Logs & History
+18. Log
+
+git log
+Full history.
+
+19. Graph view
+git log --oneline --graph --decorate --all
+Readable compact history.
+
+20. Show file history
+git blame <file>
+See which commit changed each line.
+
+
+Stash
+21. Stash current work
+
+git stash
+Save uncommitted work and clean working directory.
+
+22. Apply stash
+git stash apply
+
+23. List stashes
+git stash list
+
+
+Remote & GitHub
+24. Check remotes
+git remote -v
+
+25. Add remote
+git remote add origin <url>
+
+26. Push
+git push -u origin <branch>
+First push.
+git push
+After first time.
+
+27. Pull
+git pull
+Fetch + merge remote changes.
+
+28. Fetch
+git fetch
+Get remote changes without merging.
+
+
+Conflicts
+29. View conflicts
+Happens on merge/rebase. Fix manually, then:
+git add .
+git commit
+
+
+Tags (for releases)
+30. Create tag
+git tag <tag-name>
+
+31. Push tags
+git push --tags
+
+
+Cleaning
+32. Remove untracked files
+
+git clean -f
+Removes files not tracked by git. Dangerous but useful for resetting messy projects.

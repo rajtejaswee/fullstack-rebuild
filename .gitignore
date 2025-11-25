@@ -1,0 +1,175 @@
+ # =====================================================
+# UNIVERSAL GITIGNORE FOR FULLSTACK + DEVOPS PROJECTS
+# Author: Raj Tejaswee
+# =====================================================
+
+# -----------------------------
+# Node & Package Managers
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# -----------------------------
+# Build Outputs
+# -----------------------------
+dist/
+build/
+.next/
+out/
+coverage/
+.vite/
+.cache/
+temp/
+.tmp/
+.nyc_output/
+*.tgz
+
+# -----------------------------
+# Environment & Config
+# -----------------------------
+.env
+.env.*
+!.env.example
+*.local
+*.bak
+*.tmp
+*.old
+
+# -----------------------------
+# IDE / OS Specific
+# -----------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Logs & Runtime Files
+# -----------------------------
+*.log
+logs/
+debug.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+*.sock
+
+# -----------------------------
+# Turborepo / Monorepo Extras
+# -----------------------------
+.turbo/
+apps/**/node_modules/
+packages/**/node_modules/
+
+# -----------------------------
+# Testing
+# -----------------------------
+__pycache__/
+*.pytest_cache/
+*.test.js
+*.spec.js
+*.spec.ts
+*.snap
+jest-cache/
+jest-html-reporters-*.html
+
+# -----------------------------
+# Virtual Machines / Infrastructure
+# -----------------------------
+*.pem
+*.key
+*.crt
+*.csr
+*.pub
+*.ppk
+*.ovpn
+*.vagrant
+*.box
+*.qcow2
+*.img
+*.iso
+*.vdi
+*.vmdk
+.ssh/
+.vagrant/
+terraform.tfstate*
+terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.tfstate
+
+# -----------------------------
+# Docker
+# -----------------------------
+.docker/
+docker-compose.override.yml
+docker-compose.local.yml
+*.tar
+*.img
+*.pid
+*.sock
+.dockerignore
+
+# -----------------------------
+# Kubernetes / Helm
+# -----------------------------
+*.yaml
+*.yml
+k8s/
+kubernetes/
+helm/
+charts/
+.secrets/
+*.secret.*
+*.configmap.*
+*.namespace.*
+*.deployment.*
+*.service.*
+*.ingress.*
+
+# -----------------------------
+# CI/CD
+# -----------------------------
+.github/
+.gitlab/
+.circleci/
+*.env.local
+.env.development
+.env.production
+
+# -----------------------------
+# Cloud / Credentials
+# -----------------------------
+.aws/
+.gcp/
+.azure/
+*.json.key
+*.boto
+*.ini
+cloud-config/
+secrets/
+credentials/
+service-account.json
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.lock-wscript
+*.orig
+*.rej
+*.swp
+*.zip
+*.tar.gz
+*.7z

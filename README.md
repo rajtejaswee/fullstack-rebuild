@@ -18,17 +18,16 @@ Update this table daily with ✔ or ✖.
 | 13-11-25 | Headers + Query Params | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/headers_query_params)|Completed✅|
 | 15-11-25 | Middlewares      | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/middlewares)|Completed✅|
 | 15-11-25 | CORS    | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/cors)|Completed✅|
-| 00-00-00 | Git and Github   | -- |Pending🧪|
-| 00-00-00 | Authentication      | --|Pending🧪|
-| 00-00-00 | Mongo DB     | --|Pending🧪|
-| 00-00-00 | Zod + Passwords     | --|Pending🧪|
-| 00-00-00 | Rate Limiting + DDos + Captcha | --|Pending🧪|
+| 16-11-25 | Git and Github   | -- |Completed✅|
+| 19-11-25 | Authentication(JWTs)     | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/authentication_jwt)|Completed✅|
+| 25-00-00 | MongoDb, Zod + Passwords   | [repo](https://github.com/rajtejaswee/fullstack-rebuild/tree/main/backend/mongo_password_zod)|Completed✅|
 | 00-00-00 | React | --|Pending🧪|
 | 00-00-00 | Recoil | --|Pending🧪|
 | 00-00-00 | Tailwind | --|Pending🧪|
 | 00-00-00 | Typescript | --|Pending🧪|
 | 00-00-00 | WebSockets| --|Pending🧪|
 | 00-00-00 | Postgres and SQL Database | --|Pending🧪|
+| 00-00-00 | Rate Limiting + DDos + Captcha | --|Pending🧪|
 | 00-00-00 | Prisma and ORM | --|Pending🧪|
 | 00-00-00 | NextJs | --|Pending🧪|
 | 00-00-00 | Monorepo and Turbo repo | --|Pending🧪|
@@ -71,24 +70,6 @@ Update this table daily with ✔ or ✖.
     │   └── more...
     │
     └── README.md
-
----
-
-## 📚 Topic Folder Format
-
-    topic-name/
-    │ notes.md        # Raw explanations, concepts, examples
-    │ summary.md      # Short summary of what was learned
-    │
-    ├── assignments/
-    │     ├── assignment-01.ext
-    │     ├── assignment-02.ext
-    │     └── ...
-    │
-    └── examples/
-          ├── example-01.ext
-          ├── example-02.ext
-          └── ...
 
 ---
 
