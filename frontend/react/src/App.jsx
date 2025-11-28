@@ -4,6 +4,7 @@ function App() {
     <>
       <div>
         <HelloWorld></HelloWorld>
+        <HelloWorld></HelloWorld>
       </div>
     </>
   )
